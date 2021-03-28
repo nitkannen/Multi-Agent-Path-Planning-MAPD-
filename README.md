@@ -30,5 +30,16 @@ Multi Agent Path Finding problem is a complex problem where multiple agents are 
     ./MLMA
     ```
     
+# Different flag used
+```
+--sumlate	|    bollean flag whether to simulate the process or not
+--input		|    input file path for the input text
+--output	|    output file path to save the path found for each agent
+```
+for example,
+``` ./MLMA --simulate --input=<path to input file> --output=<path to output file> ```
+
+
+    
     
     
