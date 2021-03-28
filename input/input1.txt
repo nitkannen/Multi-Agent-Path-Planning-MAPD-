@@ -19,3 +19,11 @@
 1 2
 3 1
 3 2
+
+
+6x7 matrix, 4 robots, 5 tasks, 7 obstacles, 4 temporary storage
+next 4 lines contains initial and final position of 4 robots
+sx sy fx fy : starting(x,y) and final(x,y)
+next 5 lines contains initial and final position of 5 tasks in same manner
+next 7 lines contains postision of obstacles (x,y)
+next 4 lines contains postision of temporary storage (x,y)
