@@ -9,7 +9,8 @@ Multi Agent Path Finding problem is a complex problem where multiple agents are 
 # Algorithm used
 1. Iterative Deepening A* (IDA*)
 2. Best First Search (A*)
-3. Depth First Search (DFS)       
+3. Floyd Warshall Algorithm
+4. Depth First Search (DFS)       
 
 # Required Softwares to be installed
 1. C++ 14 compiler
