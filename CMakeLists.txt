@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 2.8) 
+PROJECT (AIFA)
+set(CMAKE_CXX_STANDARD 17)
+find_package(OpenCV REQUIRED)
+include_directories(${OpenCV_INCLUDE_DIRS})
+add_executable(AIFA main.cpp)
+target_link_libraries(AIFA ${OpenCV_LIBS})
