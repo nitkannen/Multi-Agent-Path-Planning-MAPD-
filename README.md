@@ -36,7 +36,7 @@ Black – blockage, Yellow- temporary storage
 
 # 4. Conclusion
 
-In this assignment we propose a novel algorithm for solving the Offline version of Multi Agent Pick-up and Delivery (MAPD). We leverage the fact that all tasks and agent locations (initial and final) are given to us, and we schedule the agent-task combinations optimally using IDA*. We then employ a modified MLA* algorithm that updates the path for each agent. We resolve collisions using heuristics and optimally provide unique paths to each agent in order to minimize total timespan. We use the Floyd Warshall algorithm to compute heuristics at each time step of MLA* and show that Floyd Warshall is a good underestimate and a good heuristic for path finding algorithms. Out final simulation Figure 3 shows the working simulation of the proposed approach. 
+In this assignment we propose a novel algorithm for solving the Offline version of Multi Agent Pick-up and Delivery (MAPD). We leverage the fact that all tasks and agent locations (initial and final) are given to us, and we schedule the agent-task combinations optimally using IDA*. We then employ a modified MLA* algorithm that updates the path for each agent. We resolve collisions using heuristics and optimally provide unique paths to each agent in order to minimize total timespan. We use the Floyd Warshall algorithm to compute heuristics at each time step of MLA* and show that Floyd Warshall is a good underestimate and a good heuristic for path finding algorithms. OpenCV image Figure 3 shows the working simulation of the proposed approach. 
 
 
 # Algorithm used
