@@ -1,5 +1,6 @@
 # Multi-Agent-Pickup-Delivery
 This repo contains a multi-agent multi-label path finding algorithm with simulation in OpenCV
+Please view the report in "report" folder for a detailed explanation
 
 # 01. Introduction
 Multi Agent Path Finding problem is a complex problem where multiple agents are assigned to perform a set of pickup-delivery tasks in a pre-defined warehouse map. The problem consists of assigning tasks to each agent and designing a path to pickup the task and deliver it in the desired location while avoiding collisions with other agents. Moreover, multiple agents are allowed to reside at certain blocks in the map (temporary storage, initial agent location, final agent location). The goal is to come up with a optimal approach (minimum make span) to carry out the given tasks. Figure 1 is a sample warehouse map.
